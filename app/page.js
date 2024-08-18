@@ -29,7 +29,14 @@ export default function Page() {
       {/* Fixed Top Navigation Bar */}
       <nav className="bg-blue-600 fixed top-0 left-0 w-full z-50 shadow-md">
         <div className="container mx-auto flex justify-between items-center p-4 text-white">
-          <div className="text-2xl font-bold">Arch E-commerce</div>
+        <div className="text-2xl font-bold">
+            <Image
+              src="/logo.png"  
+              alt="Arch E-commerce Logo"
+              width={150}  
+              height={50}  
+            />
+          </div>
           <div className="flex flex-grow mx-4">
             <input
               type="text"
